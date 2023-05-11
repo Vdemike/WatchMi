@@ -4,6 +4,7 @@ import {
 } from '@app/types/types';
 import axios, { AxiosRequestConfig } from "axios";
 
+
 const tmdb = 'https://api.themoviedb.org/3';
 const tmdbKey = import.meta.env.VITE_TMDB_KEY;
 
