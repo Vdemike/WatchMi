@@ -16,12 +16,11 @@ const Favorites = () => {
         <Container>
           <div className="movie__header">
             <div className="movie__header-title">
-              <h1>My Favorite Movies</h1>
-              <h3>{numberWithCommas(favorites.length)} Movies</h3>
+              <h1>My Favorites</h1>
+              <h3>{numberWithCommas(favorites.length)} Favorites</h3>
             </div>
           </div>
           <MovieList
-            category="movie"
             movies={favorites}
           />
         </Container>

@@ -60,7 +60,7 @@ const Navigation = () => {
           </button>
           <div className="navigation__logo">
             <Link to={route.HOME}>
-              <img src="/logo-full.png" alt="" />
+              <img src="/logo-full.png" alt="" className="h-1" />
             </Link>
           </div>
           <div className="navigation__menu-wrapper">

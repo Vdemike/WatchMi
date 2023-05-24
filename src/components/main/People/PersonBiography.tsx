@@ -51,11 +51,11 @@ const PersonBiography = () => {
           {actor?.id && (
             <div className="backdrop__container">
               {actor.id && (
-                <img
-                  alt=""
-                  className="backdrop__image"
-                  src="/background.jpg"
-                />
+                    <ImageLoader
+                    alt={actor.name}
+                    imgId={actor.id}
+                    src={`${tmdbPosterPath + actor.profile_path}`}
+                  />
               )}
             </div>
           )}
